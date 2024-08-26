@@ -1,0 +1,109 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 100;
+    background-image: url('61763451_1101642813369529_2856313239371776000_n.png'); /* Update this path */
+    height: 100vh;  
+}
+
+/* Header styling */
+header {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(0, 140, 255); /* Slightly transparent background */
+}
+
+nav.navbar .logo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+nav.navbar .nav-links a {
+    color: rgb(244, 236, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav.navbar .nav-links a:hover, nav.navbar .nav-links a.active {
+    background-color:  rgb(80, 80, 255);
+}
+
+/* Hero section styling */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-content .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 208, 0);
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn.primary-btn {
+    background-color: #007bff;
+}
+
+.hero-content .btn.primary-btn:hover {
+    background-color: #0056b3;
+}
+
+.hero-content .btn.secondary-btn {
+    background-color: rgb(80, 80, 255);
+}
+
+.hero-content .btn.secondary-btn:hover {
+    background-color:rgb(80, 80, 255);
+}
